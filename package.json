@@ -56,7 +56,8 @@
   },
   "scripts": {
     "fix": "make fix-lint",
-    "test": "make test"
+    "test": "make test",
+    "test-ci": "make test-ci"
   },
   "dependencies": {
     "argparse": "~0.1.15",
@@ -66,9 +67,11 @@
     "ansi": "^0.3.0",
     "benchmark": "^1.0.0",
     "commonmark": "0.12.0",
+    "coveralls": "^3.0.4",
     "eslint": "^5.16.0",
     "gulp-format-md": "^0.1.10",
     "highlight.js": "^9.7.0",
+    "istanbul": "^0.4.5",
     "marked": "0.3.2",
     "mocha": "*"
   },

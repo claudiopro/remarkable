@@ -18,6 +18,9 @@ demo: lint
 	stylus -u autoprefixer-stylus demo/assets/index.styl
 	rm -rf demo/example.json
 
+fix-lint:
+	eslint --fix ./bin ./lib ./support ./test
+
 lint:
 	eslint ./bin ./lib ./support ./test
 

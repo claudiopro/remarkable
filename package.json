@@ -55,6 +55,7 @@
     "node": ">= 0.10.0"
   },
   "scripts": {
+    "fix": "make fix-lint",
     "test": "make test"
   },
   "dependencies": {
